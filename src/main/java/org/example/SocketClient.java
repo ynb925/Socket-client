@@ -21,7 +21,7 @@ public class SocketClient {
                 writer.write(message);
                 writer.flush();
             } catch (Exception e) {
-                System.out.println("server is close");
+                System.out.println("Alarm server is close");
                 throw new RuntimeException(e);
             }
         }
